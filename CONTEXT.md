@@ -1,6 +1,6 @@
 # MedTransit — Context
 
-Ultimo aggiornamento: 2026-11-17 (fine sessione di design)
+Ultimo aggiornamento: 2026-11-17 (design approvato, su main, presente nel portfolio)
 
 ## Obiettivo
 
@@ -13,8 +13,9 @@ Scopo: imparare e dimostrare un'architettura a microservizi ed eventi con Kafka.
 - Il repository contiene LICENSE, README, AGENTS.md, CLAUDE.md, questo file e il design doc.
 - **Nessun codice, nessun test, nessuna build.**
 - Design doc scritto, riletto da un revisore indipendente e approvato da Fabio: `docs/superpowers/specs/2026-11-17-medtransit-design.md`.
-- Branch `claude/msa-kafka-project-9bn46i`, draft PR #1. Non è ancora su `main`.
-- Scheda Notion creata nel database "Progetti software" (priorità Secondaria, stato Pianificato).
+- Tutto questo è su `main` dal 17 novembre 2026 (PR #1 mergiata con squash, commit `fd6d565`).
+- Scheda Notion nel database "Progetti software" (priorità Secondaria, stato Pianificato), con lo stato verificato e la sezione sul portfolio.
+- Portfolio (`fabio-zagaria-portfolio`, PR #65 mergiata il 17 novembre 2026): scheda MedTransit nella sezione Backend, dopo JobFlow e prima di AccessDesk, con stato «In progettazione», schema del flusso con tutti i passaggi tratteggiati e tecnologie marcate «(previsto)». Nessun «ultimo aggiornamento» né badge «Commit recente».
 
 ## Decisioni architetturali stabili
 

@@ -30,6 +30,7 @@ Quando Fabio chiede una spiegazione, rispondi in modo diretto e approfondito: no
 - Nessun codice né database condivisi tra servizi. I contratti degli eventi stanno in `docs/events/`.
 - Nessuna chiamata sincrona tra servizi per completare il lavoro principale.
 - Testing, validation, error handling e gestione dei guasti fanno parte della Definition of Done quando pertinenti. Compilare o far partire un container non significa Done.
+- **Documentazione sempre allineata.** Ogni modifica (codice, struttura, stato, decisione, dati) aggiorna nella stessa PR tutti i documenti che la riguardano: `README.md`, `CONTEXT.md`, questo file, il design doc in `docs/`, i contratti in `docs/events/` e la scheda Notion del progetto. Prima di dichiarare finito un lavoro, passare in rassegna questo elenco e dire per ciascun documento se è stato aggiornato o perché non serve. Una modifica senza documenti allineati non è Done.
 - Nessun segreto, password o token nel repository. Dati solo fittizi.
 - Niente commit, push, merge o deploy senza autorizzazione esplicita di Fabio.
 - Commit piccoli e comprensibili.
